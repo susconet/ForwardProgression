@@ -1,12 +1,21 @@
 ### ForwardProgression
 
 #Neural Network Model - Forward Propagation
-#Authors: Nick Susco II, AI Guy 
-#Created On The Date: 11/01/2023
+#This script defines the functions needed for a forward propagation step in a neural network model. Copyright 2023 Nick Susco and AI Guy.
 
-#This script defines the functions needed for the forward propagation step in a neural network model.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-"""
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 import numpy as np
 
 def initialize_parameters(n_x, n_h, n_y)
@@ -61,14 +70,43 @@ def linear_forward(A, W, b):
 
 ## README
 
-This script contains the implementation for the forward propagation step in a neural network model. The `initialize_parameters` function is used to initialize the parameters of the neural network, and the `linear_forward` function is used to implement the linear part of a layer's forward propagation.
+This script contains the implementation for the forward propagation step in a neural network model. The `initialize_parameters` function is used to initialize the parameters of the neural network, and the `linear_forward` function is used to implement the linear part of a layer's forward propagation
 
-## Apache License 2.0
+THOUT WARRANTIES OR CONDITIONS OF ANY mmtted without prior permission. By using this code, you agree to these terms and conditions.
+SUSTAINESUSTAINEINACCURATEINACCURATE OROR LOSSES SUSTAI SUSTAINENED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POmmercialY OF SUCH DAMAGES.
+LOSSES
+17. Interpretation of Sections 15 and 16.
+If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.
+ SUSTAINESUSTAINE
+END OF TERMSTERMSTERMS
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+How to Apply These Terms to Your New Programs
+If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+GeneGeneralral0
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.
+ENDENDEND
+END  <one line to give the program's name and a brief idea of what it does.>
+        Copyright (C) <year>  <name of author>
 
-http://www.apache.org/licenses/LICENSE-2.0
+            This program is  free software. It would be advisabe to use it to make the word a better place, for everyone.
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. 
+                            This prograGeneGeneralral0prograGeneGeneralral0dd in the hope that it will be useful,
+                                but WITHOUT ANY WARRANTY; without even the implied warranty of
+                                    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+                                        GNU General Public License for more details.
 
-Feel free to use and modify this code for educational and non-commercial purposes, but please give proper attribution to Nick Susco II and AI Guy as the original authors. Commercial use of this code is not permitted without prior permission. By using this code, you agree to these terms and conditions.
+                                            You should have received a copy of the GNU GeneGeneralGeneGeneralralral Public License
+                                                along withwithwiwithwwithwithwiwithwithwithwiththwithithwithwiththwith this program.  If not, see <https://www.gnu.org/licenses/>.
+                                                Also awithwithwithwithn how to contact you by electronic and paper mail.
+
+                                                If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:
+
+                                                    <program>  Copyright (C) <year>  <name of author>
+                                                        This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+                                                            This is free software, and you are welcome to redistribute it
+                                                                under certain conditions; type `show c' for details.
+                                                                The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.
+
+                                                                You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <https://www.gnu.org/licenses/>.
+
+                                                                The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <https://www.gnu.org/licenses/why-not-lgpl.LOSSES
